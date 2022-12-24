@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="FrameworkBasicOnTutorialsNinjaWebsite">
+ <listeners>
+   <listener class-name="com.gwit.listeners.FrameworkListeners"></listener>
+ </listeners>
+  <test name="Automation Tests">
+    <classes>
+      <class name="com.gwit.tests.RegisterTests"/>
+      <class name="com.gwit.tests.LoginTests"/>
+      <class name="com.gwit.tests.SearchTests"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
