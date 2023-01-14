@@ -45,7 +45,7 @@ public class RegisterTests extends BaseTest {
 	public void verifyRegisterAccountWithMandatoryFields() {
 		
 		rp.enterFirstNameOnRegistrationPage("TestFirstName");		
-		rp.enterLastNameOnRegistrationPage("TestLastName");		
+		rp.enterLastNameOnRegistrationPage("TestLastNameTwo");		
 		rp.enterEmailOnRegistrationPage(Utilities.generateEmailwitTimeStamp());		
 		rp.enterPhoneOnRegistrationPage("1234567890");		
 		rp.enterPasswordOnRegistrationPage("12345");		
